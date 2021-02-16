@@ -1,4 +1,4 @@
-# Chrome Extension (built with TypeScript + React)
+# Chrome Extension (built with TypeScript + React) with Live Reload
 
 > This project is a boilerplate project to allow you to quickly build chrome extensions using TypeScript and React.
 
@@ -22,4 +22,5 @@ To let popup and window reload automatically insert this code
 `
 import hotreload from '../utils/hotreload'; hotreload();
 `
+
 Backgroud and Content hot reload working bcs of https://www.npmjs.com/package/webpack-chrome-extension-reloader
